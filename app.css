@@ -1,4 +1,7 @@
+body {
+    
+    background: #000 url("https://photos-5.dropbox.com/t/2/AABi0IVK7feb9Ku7GotiAIMmexvl5Tllr3GCJocihi5BKw/12/426056384/jpeg/256x256/1/_/1/2/Photo%2030-07-2016%2C%205%2050%2005%20AM.jpg/EPP8g7YDGP4NIAIoAg/EB5f_1MU42SRAcF3Us9n6tYgM58fob02yhbbHHZQFe8?size_mode=3&size=2048x1536") ;
+    
+    background-size: cover;
 
-body{
-  color: #002fb6; 
-  background-color : #fffd4a; }
+}
