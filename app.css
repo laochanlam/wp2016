@@ -30,10 +30,19 @@ ul.menu li a
     text-align: center;
     display: block;
     color: #000;
-    padding: 30px 50px;
+    padding: 5px 1px;
     text-decoration: none;
-    font-size: 30px;
-    font-style: italic;
+    
+    /*font*/
+    background: #fe921f; 
+    color: #ffffff;  
+    font-family: 'Lato', sans-serif; 
+    font-size: 12px; 
+    font-weight: bold; 
+    line-height: 12px; 
+    letter-spacing: 15px;  
+    padding: 10px 15px 8px; 
+    text-transform: uppercase; 
   
 }		
 
@@ -53,20 +62,19 @@ ul.menu li a:hover:not(.active)
 
 /*context*/
 div.context {
-    margin-left: 10%;
+    margin-left: 25%;
+    margin-top: 3%;
     padding: 1px 16px;
     height: 1000px;
 }
 
-@media screen and (max-width: 1050px){
-    ul.menu {
-        width:100%;
-        height:auto;
-        position:relative;
-    }
-    ul.menu li a {
-        float: left;
-        padding: 15px;
-    }
-    div.conetxt {margin-left:0;}
+#name { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;}
+
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
 }
+
+.information {  }
