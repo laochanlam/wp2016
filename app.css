@@ -1,7 +1,72 @@
+
+  
 body {
     
     background: #000 url("https://photos-5.dropbox.com/t/2/AABi0IVK7feb9Ku7GotiAIMmexvl5Tllr3GCJocihi5BKw/12/426056384/jpeg/256x256/1/_/1/2/Photo%2030-07-2016%2C%205%2050%2005%20AM.jpg/EPP8g7YDGP4NIAIoAg/EB5f_1MU42SRAcF3Us9n6tYgM58fob02yhbbHHZQFe8?size_mode=3&size=2048x1536") ;
-    
+    margin: 0;
     background-size: cover;
 
+}
+
+
+/*init menu*/		
+ul.menu 
+{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+}	
+
+
+ul.menu li a 
+{
+    text-align: center;
+    display: block;
+    color: #000;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+  
+}		
+
+/* init active option*/
+ul.menu li a.active
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*mouse sensor*/
+ul.menu li a:hover:not(.active)
+{
+    background-color: #555;
+    color: white;
+}
+
+/*context*/
+div.context {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 1050px){
+    ul.menu {
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+    ul.menu li a {
+        float: left;
+        padding: 15px;
+    }
+    div.conetxt {margin-left:0;}
 }
