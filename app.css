@@ -1,5 +1,3 @@
-
-  
 body {
     
     background: #000 url("https://photos-5.dropbox.com/t/2/AABi0IVK7feb9Ku7GotiAIMmexvl5Tllr3GCJocihi5BKw/12/426056384/jpeg/256x256/1/_/1/2/Photo%2030-07-2016%2C%205%2050%2005%20AM.jpg/EPP8g7YDGP4NIAIoAg/EB5f_1MU42SRAcF3Us9n6tYgM58fob02yhbbHHZQFe8?size_mode=3&size=2048x1536") ;
@@ -62,13 +60,13 @@ ul.menu li a:hover:not(.active)
 
 /*context*/
 div.context {
-    margin-left: 25%;
+    margin-left: 2%;
     margin-top: 3%;
     padding: 1px 16px;
     height: 1000px;
 }
 
-#name { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;}
+#name { color: #010; font-family: 'Open Sans Condensed', sans-serif; font-size: 100px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;}
 
 
 hr {
@@ -78,3 +76,11 @@ hr {
 }
 
 .information {  }
+
+.context {
+    background: rgba(255, 255, 255, 0.35)
+}
+
+h4 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center;}
+
+  
