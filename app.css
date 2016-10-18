@@ -1,8 +1,12 @@
 body {
-    
-    background: #000 url("https://photos-5.dropbox.com/t/2/AABi0IVK7feb9Ku7GotiAIMmexvl5Tllr3GCJocihi5BKw/12/426056384/jpeg/256x256/1/_/1/2/Photo%2030-07-2016%2C%205%2050%2005%20AM.jpg/EPP8g7YDGP4NIAIoAg/EB5f_1MU42SRAcF3Us9n6tYgM58fob02yhbbHHZQFe8?size_mode=3&size=2048x1536") ;
+    /*
+    background:  url("https://photos-5.dropbox.com/t/2/AABi0IVK7feb9Ku7GotiAIMmexvl5Tllr3GCJocihi5BKw/12/426056384/jpeg/256x256/1/_/1/2/Photo%2030-07-2016%2C%205%2050%2005%20AM.jpg/EPP8g7YDGP4NIAIoAg/EB5f_1MU42SRAcF3Us9n6tYgM58fob02yhbbHHZQFe8?size_mode=3&size=2048x1536") 0 0 no-repeat,
+      url("https://photos-5.dropbox.com/t/2/AAArFw2ihrmQAUZ-NxT-3O8__NfJ6G3srUBEmb6q5DAuCQ/12/426056384/jpeg/256x256/1/_/1/2/Photo%2026-07-2016%2C%201%2052%2003%20PM.jpg/ELzwmPwEGO4HIAIoAg/qEC7J0eVkEN29THfp26vbyiaBJhtl3XdXtvCrLCuzm4?size_mode=3&size=2048x1536") ;
     margin: 0;
+
     background-size: cover;
+    
+    */
 
 }
 
@@ -59,16 +63,17 @@ ul.menu li a:hover:not(.active)
 }
 
 /*context*/
-div.context {
+div.home {
     margin-left: 2%;
     margin-top: 3%;
     padding: 1px 16px;
     height: 1000px;
 }
 
+/*font of name*/
 #name { color: #010; font-family: 'Open Sans Condensed', sans-serif; font-size: 100px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;}
 
-
+/*bar*/
 hr {
 	height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
@@ -77,10 +82,43 @@ hr {
 
 .information {  }
 
-.context {
-    background: rgba(255, 255, 255, 0.35)
+.home {
+    background: rgba(255, 255, 255, 0.4);
+    
 }
 
 h4 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center;}
 
-  
+pre {
+	height: 2000px;
+}
+
+.background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .background img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+.profilepic{
+    position:fix;
+    width:800px;
+    height:800px;
+    overflow:hidden;
+    border-radius:50%;
+    margin: 0 auto;
+}
+
+
+
+.profilepic img {
+    width:100%;
+    height:auto;
+    
+        }
